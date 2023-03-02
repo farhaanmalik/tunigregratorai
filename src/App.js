@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import About from "./About";
+import Footer from "./components/Footer";
+import GoTotop from "./GoTotop";
+import Home from "./Home";
+import Roadmap from "./Roadmap";
+import Token from "./Token";
+import Loading from "./components/Loading";
 
 function App() {
+
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false)
+    }, 5000);
+
+  }, [])
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+        {loading ?
+          <Loading loading={loading}/>
+          :
+          <div>
+            <Home />
+            <About />
+            <Token />
+            <Roadmap />
+            <Footer />
+            <GoTotop />
+          </div>
+        }
+    </>
   );
 }
 

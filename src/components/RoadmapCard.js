@@ -35,7 +35,6 @@ const RoadmapCard = () => {
                         <h4>Stage 3</h4>
                         <ul>
                             <li>Presale on Pinksale</li>
-                            <li>Listing on PancakeSwap</li>
                             <li>Starting main Marketing campaign</li>
                             <li>Building Tuni-Ggregator Ai multichain DEX</li>
                             <li>Building Tuni-Ggregator Ai multichain DEX</li>

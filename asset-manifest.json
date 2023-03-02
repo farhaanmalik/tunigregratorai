@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/farhaanmalik/tunigregrator/static/css/main.0079bcf6.css",
+    "main.js": "/farhaanmalik/tunigregrator/static/js/main.71abe73a.js",
+    "index.html": "/farhaanmalik/tunigregrator/index.html",
+    "main.0079bcf6.css.map": "/farhaanmalik/tunigregrator/static/css/main.0079bcf6.css.map",
+    "main.71abe73a.js.map": "/farhaanmalik/tunigregrator/static/js/main.71abe73a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0079bcf6.css",
+    "static/js/main.71abe73a.js"
+  ]
+}
